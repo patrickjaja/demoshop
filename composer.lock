@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f1d137d2a71b519d32fe333a49b6e5a8",
+    "content-hash": "1cbe344c09c032a9c7a223bee349546c",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -5323,11 +5323,11 @@
         },
         {
             "name": "spryker/discount-promotion",
-            "version": "1.0.3",
+            "version": "dev-hotfix/promotion-availability-fix",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/DiscountPromotion.git",
-                "reference": "cabda4b094899f055af3bbb4ce0aef1744b10d1d",
+                "reference": "c0067de52b04d69338a375c65e341e415dd23a35",
                 "mirrors": [
                     {
                         "url": "https://code.spryker.com:/repo/private/mirrors/%package%/%normalizedUrl%.%type%",
@@ -5337,8 +5337,8 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/DiscountPromotion/zipball/cabda4b094899f055af3bbb4ce0aef1744b10d1d",
-                "reference": "cabda4b094899f055af3bbb4ce0aef1744b10d1d",
+                "url": "https://api.github.com/repos/spryker/DiscountPromotion/zipball/c0067de52b04d69338a375c65e341e415dd23a35",
+                "reference": "c0067de52b04d69338a375c65e341e415dd23a35",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -5391,9 +5391,9 @@
             ],
             "description": "DiscountPromotion module",
             "support": {
-                "source": "https://github.com/spryker/DiscountPromotion/tree/master"
+                "source": "https://github.com/spryker/DiscountPromotion/tree/hotfix/promotion-availability-fix"
             },
-            "time": "2017-10-23T10:58:14+00:00"
+            "time": "2017-12-13T14:58:13+00:00"
         },
         {
             "name": "spryker/dummy-payment",
@@ -18144,7 +18144,7 @@
             ],
             "authors": [
                 {
-                    "name": "Sullivan Sénéchal",
+                    "name": "Sullivan Senechal",
                     "email": "soullivaneuh@gmail.com"
                 }
             ],
@@ -19024,11 +19024,18 @@
             "alias_normalized": "1.0.0.0",
             "version": "9999999-dev",
             "package": "spryker-eco/loggly"
+        },
+        {
+            "alias": "1.0.3",
+            "alias_normalized": "1.0.3.0",
+            "version": "dev-hotfix/promotion-availability-fix",
+            "package": "spryker/discount-promotion"
         }
     ],
     "minimum-stability": "dev",
     "stability-flags": {
-        "spryker-eco/loggly": 20
+        "spryker-eco/loggly": 20,
+        "spryker/discount-promotion": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
